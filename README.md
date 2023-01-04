@@ -1,2 +1,4 @@
 # GNAT-Ada-Tutorial
-Getting started in COSC 3319 at Sam Houston State University
+To get started, download the GNAT Studio. This is the environment where you will write your Ada programs.
+[Link to Adacore download page](https://www.adacore.com/). Download the correct file depending on your operating system.
+<br />
