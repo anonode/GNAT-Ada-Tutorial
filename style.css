@@ -1,0 +1,12 @@
+* {
+    background-color: black;
+}
+.head {
+    text-align: center;
+    color: yellowgreen;
+    font-size: 3em;
+}
+.text {
+    color: yellowgreen;
+    font-size: 2em;
+}
