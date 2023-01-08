@@ -6,7 +6,11 @@
     color: yellowgreen;
     font-size: 3em;
 }
-.text {
-    color: yellowgreen;
+.txt { 
+    color: rgb(131, 228, 112);
     font-size: 2em;
+}
+
+.image {
+    height: "75%";
 }
