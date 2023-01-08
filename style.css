@@ -1,4 +1,4 @@
-* {
+.main {
     background-color: black;
 }
 .head {
@@ -10,7 +10,10 @@
     color: rgb(131, 228, 112);
     font-size: 2em;
 }
-
 .image {
     height: "75%";
+}
+.b {
+    background-image: url(./images/doc.jpeg);
+    height: 300cm;
 }
