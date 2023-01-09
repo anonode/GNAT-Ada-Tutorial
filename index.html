@@ -11,7 +11,7 @@
     <h1 class="head"><strong>COSC 3319</strong> </h1><!--Greeting at the top of the main page-->
     <div class = "txt">
         <p>Here are some of the resources that will help you get through COSC 3319. These are all resources that I personally found
-           to be helpful, and I hope that they are of good use to you
+           to be helpful, and I hope that they are of good use to you.
         </p>
         <p>That being said, the resources shared on this page are for Ada and GNAT Studio. The resources provided by
             Dr. Burris are sufficient for learning and test material. He does not teach Ada, but there will be provided resources with
@@ -31,9 +31,15 @@
             </li>
             <li>GNAT
                 <ul>
+                    <p>FIrst and foremost, if you are using an operating system other than Windows, you are likely to have a harder time installing GNAT. If you happen
+                        to be using an non-Windows OS, consider using the free VMWare subscription offered to students at SHSU to make a virtual machine with Windows installed.
+                        I apologize if I miss any information necessary for linux and MAC users, I just found the best things I could find online and linked them below.
+                    </p>
                     <li>Link to download <a href="https://www.adacore.com/gnatpro/comparison", style="color: rgb(86, 29, 190)">
                         GNAT Studio</a> 
                         <ol style="font-size: 20px;">
+                            <p></p>
+                            <p>In the sections below, there will be links to tutorials that will help you in setting up the GNAT Studio and <a href="https://en.wikipedia.org/wiki/GNU_Compiler_Collection">GCC</a></p>
                             <p></p><!--Used to create space between elements of the ordered list-->
                             <li>I would recommend downloading the 'Community' Edition of GNAT Studio. It's free.</li>
                             <p></p><!--Used to create space between elements of the ordered list-->
@@ -43,19 +49,78 @@
                             <div class="image"><img src="./images/two.png" alt="Step two"></div>
                             <div class="image"><img src="./images/three.png" alt="Step three"></div>
                             <div class="image"><img src="./images/four.png" alt="Step four"></div>
+
+                            <p>
+                            In order for you to be able to compile any of the code written in GNAT Studio, make sure that you have
+                            GCC, <strong>G</strong>NU <strong>C</strong>ompiler <strong>C</strong>ollection, installed. You can check for this by opening a terminal
+                            or command prompt and enterin gthe following command: <strong>gcc -v</strong>. If it is installed, you will be
+                            presented with the version of gcc that you have installed, otherwise, there will be an error message of some sort.</p>
+                        
+                            <p>
+                                To install gcc on linux, open a terminal and enter the command: sudo apt install gcc
+                            </p>
+                            <p>
+                                Here is a tutorial to set up GNAT Studio: <a href="https://docslib.org/doc/6777556/installing-gnat-in-linux-and-unix">https://docslib.org/doc/6777556/installing-gnat-in-linux-and-unix</a>
+                            </p>
+                            <p>
+                                For linux users, you may also need to change the permissions on the file you download: 
+                            </p>
+                            <img src="./images/el1.png" alt="altercations", style="margin-left: 35%;">
+                            <p>
+                            To install gcc and GNAT on MAC, it is not so simple. There are helpful tutorials available on Youtube. As far as I know, it is pretty difficult.
+                            Here is a helpful tutorial:   <a href="https://sites.radford.edu/~nokie/classes/320/compileInstall.html">https://sites.radford.edu/~nokie/classes/320/compileInstall.html</a>
+                            </p>
+                            <p>Installing GNAT on windows is somewhat similar, so once you download the correct file, run it and follow the prompts accordingly</p>
+                            <p>Here is a helpful video from Adacore showing the installation process of the GNAT studio on windows: <a href="https://www.youtube.com/watch?v=oMQn_M-9Kmw">https://www.youtube.com/watch?v=oMQn_M-9Kmw</a> </p>
+                            <p style="margin-bottom: 3em;"></p>
+                            <p>Once you reach this point, all that is left to do is make a project. Once you open the new software you just installed, do the following:</p>
+                            <ol>
+                                <li>
+                                    Click on 'Create new project'
+                                </li>
+                                <li>
+                                    Click on 'Simple Ada Project'
+                                </li>
+                                <li>
+                                    Be sure to rename the main file to something unique, or that you store every new project in a different folder in your directory.
+                                    I would highly advise you do this for the following reasons:
+                                    <ul>
+                                        <li>
+                                            Prevention of data loss
+                                            <ul>
+                                                <li>
+                                                    Having all of your projects in the same folder <strong>AND</strong> having all of your main files named as <em>'main'</em>
+                                                    will lead to you losing entire projects in the event that you open a new project will working on an existing one
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            Organization
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    Make sure to hit the 'build all' button to build your projects before running them
+                                </li>
+                                <li>
+                                    Change the color theme: Go to the nav bar and click ><strong>Edit</strong>><strong>Preferences</strong>><strong>Color Theme</strong>
+                                </li>
+                            </ol>
+                        
                     </li>
                 </ul>
             </li>
         </ul>
         
-        
+        <p style="margin-bottom: 4em;"></p>
         <p>General Tips</p> 
-        <ul style="font-size: 26px;">
+        <ul style="font-size: 32px;">
             <li>Take the time to develop a study technique that works for you</li>
             <li>Make time to study. <ul><li>While this may seem trivial, it is important that you give yourself the best chances at passing
-                exams by studying material as early as you can. Do not cram. Given the low percentage of people who passed the course, I
-                would say that cramming is probably not the most effective way of preparing for DSA test
-                </li></ul></li>
+                exams by studying material as early as you can
+            </li>
+        </ul>
+    </li>
             <li>Get adequate sleep, exercise, nutrition, and hydration</li>
             <li>If possible, go to class</li>
             <li>Participate in the lecture, and ask questions if you have them
@@ -66,8 +131,4 @@
         <p style="margin-bottom: 200cm"></p>
         <pre class="b"><img src="./images/doc.jpeg", height="50%", width="50%" alt="prof"></pre>
 </body>
-
-
-
-
 </html>
