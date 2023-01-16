@@ -13,3 +13,6 @@
 .image {
     height: "75%";
 }
+ul, ul li{
+    list-style-image: url(./images/burrisicon.png);
+}
